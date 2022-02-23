@@ -1,6 +1,7 @@
 from django.contrib import admin
-from .models import Etkinlik, Profil
+from .models import EtkinlikModel, KitapModel, ProfilModel
 # Register your models here.
 
-admin.site.register(Etkinlik)
-admin.site.register(Profil)
+admin.site.register(EtkinlikModel)
+admin.site.register(ProfilModel)
+admin.site.register(KitapModel)
